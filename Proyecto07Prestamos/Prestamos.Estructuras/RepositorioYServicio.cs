@@ -100,24 +100,19 @@ public sealed class ServicioPrestamos : IServicioPrestamos
 
         DateTime ahora = DateTime.Now;
         RegistrarPrestamoOrdinario(new Prestamo(
-            "PR-001", "A01704512", "Valeria Mendoza",
-            new Laptop("LAP-101", "Lenovo", "ThinkPad T14", "Ryzen 7 Pro", 16),
+            "PR-001", "0001", "Carla",
+            new Laptop("LAP-001", "Lenovo", "ThinkPad T14", "Ryzen 7 Pro", 16),
             ahora.AddHours(-2), ahora.AddHours(2), PrioridadPrestamo.Ordinario));
 
         RegistrarPrestamoUrgente(new Prestamo(
-            "PR-002", "PROF-8821", "Dr. Carlos Herrera",
-            new ProyectorMultimedia("PRY-204", "Epson", "PowerLite X49", 3600, "XGA 1024x768"),
+            "PR-002", "0002", "Angel",
+            new ProyectorMultimedia("PR-001", "Epson", "PowerLite", 3600, "1024x768"),
             ahora.AddMinutes(-45), ahora.AddHours(3), PrioridadPrestamo.Urgente));
 
         RegistrarPrestamoOrdinario(new Prestamo(
-            "PR-003", "A01709931", "Diego Salazar",
-            new Tablet("TAB-305", "Apple", "iPad Air M2", 11.0, true),
+            "PR-003", "0003", "Jose",
+            new Tablet("TAB-001", "Apple", "iPad Air", 11.0, true),
             ahora.AddHours(-1), ahora.AddHours(4), PrioridadPrestamo.Ordinario));
-
-        RegistrarPrestamoEnPosicion(1, new Prestamo(
-            "PR-004", "A01703319", "Fernanda Ríos",
-            new KitRobotica("ROB-402", "Arduino", "Engineering Kit R2", "Nano 33 IoT", 8),
-            ahora.AddMinutes(-20), ahora.AddHours(5), PrioridadPrestamo.Programado));
     }
 
     private void ValidarDisponibilidadEquipo(Prestamo prestamo)
