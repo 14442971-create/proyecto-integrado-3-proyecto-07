@@ -155,7 +155,7 @@ partial class frmPrestamos
         this.lblEquipoId.Location = new System.Drawing.Point(940, 19);
         this.lblEquipoId.Name = "lblEquipoId";
         this.lblEquipoId.Size = new System.Drawing.Size(220, 30);
-        this.lblEquipoId.Text = "PROYECTO 07 | LISTA SIMPLE";
+        this.lblEquipoId.Text = "PROYECTO 07";
         this.lblEquipoId.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 
         // tabPrincipal
@@ -224,7 +224,7 @@ partial class frmPrestamos
         this.lblMatricula.ForeColor = colorTexto;
         this.lblMatricula.Location = new System.Drawing.Point(14, 40);
         this.lblMatricula.Size = new System.Drawing.Size(300, 18);
-        this.lblMatricula.Text = "Matrícula / Nómina:";
+        this.lblMatricula.Text = "Matrícula:";
 
         this.txtMatricula.BackColor = colorFondo;
         this.txtMatricula.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -304,7 +304,7 @@ partial class frmPrestamos
         this.lblPrioridad.ForeColor = colorTexto;
         this.lblPrioridad.Location = new System.Drawing.Point(14, 294);
         this.lblPrioridad.Size = new System.Drawing.Size(210, 18);
-        this.lblPrioridad.Text = "Prioridad / Modo Inserción:";
+        this.lblPrioridad.Text = "Prioridad:";
 
         this.cmbPrioridad.BackColor = colorFondo;
         this.cmbPrioridad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -335,7 +335,7 @@ partial class frmPrestamos
         this.btnRegistrar.ForeColor = colorFondo;
         this.btnRegistrar.Location = new System.Drawing.Point(14, 350);
         this.btnRegistrar.Size = new System.Drawing.Size(310, 34);
-        this.btnRegistrar.Text = "REGISTRAR EN LISTA ENLAZADA";
+        this.btnRegistrar.Text = "REGISTRAR";
         this.btnRegistrar.UseVisualStyleBackColor = false;
 
         this.lblSecOperaciones.Font = fuenteSubtitulo;
@@ -384,7 +384,7 @@ partial class frmPrestamos
         this.lblTituloCatalogo.Font = fuenteSubtitulo;
         this.lblTituloCatalogo.ForeColor = colorCian;
         this.lblTituloCatalogo.Height = 28;
-        this.lblTituloCatalogo.Text = "CATÁLOGO DE PRÉSTAMOS ACTIVOS (RECORRIDO SECUENCIAL DE LISTA SIMPLE)";
+        this.lblTituloCatalogo.Text = "CATÁLOGO DE PRÉSTAMOS ACTIVOS";
 
         this.lvPrestamos.BackColor = colorFondo;
         this.lvPrestamos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
