@@ -509,7 +509,7 @@ partial class frmPrestamos
         this.txtInterpretacion.Multiline = true;
         this.txtInterpretacion.ReadOnly = true;
         this.txtInterpretacion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-        this.txtInterpretacion.Text = "Ejecute el benchmark en modo Release sin depurador (Ctrl+F5) para analizar complejidad O(1)/O(n) y localidad de caché.";
+        this.txtInterpretacion.Text = "Ejecute el benchmark";
 
         // statusStrip
         this.statusStrip.BackColor = colorSuperficie;
